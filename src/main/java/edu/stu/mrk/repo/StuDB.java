@@ -6,9 +6,5 @@ import edu.stu.mrk.entity.Student;
 
 public interface StuDB extends JpaRepository<Student, Integer> {
 
-	static void saveAll(int stuNo) {
-	StuDB studb;
-		
-	}
 
 }
